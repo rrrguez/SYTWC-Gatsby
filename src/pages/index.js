@@ -178,6 +178,7 @@ export const Head = () => <title>Home Page</title>
 
 import * as React from 'react'
 import { Link } from 'gatsby'
+import PageTitle from './components/PageTitle'
 import { StaticImage } from 'gatsby-plugin-image'
 import "./styles/index.css"
 
@@ -185,7 +186,7 @@ const IndexPage = () => {
   return (
     <div>
       <div className='title'>
-        <h1> NINTOPIC </h1>
+        <PageTitle page="home"/>
       </div>
       <div className='welcome'>
         <h2> Welcome to Nintopic! </h2>

@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `girasol`,
+    title: `NINTOPIC`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
