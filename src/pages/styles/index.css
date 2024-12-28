@@ -24,10 +24,11 @@
     width: 100%;
 }
 
-h1 {
+h1, .home-link {
     color: #000000;
     font-family: 'Pikmin Neue', serif;
     font-size: 44px;
+    font-weight: bold;
     width: 16.75%;
 }
 
@@ -81,6 +82,11 @@ nav {
 
 .nav-link:hover {
     color: white;
+}
+
+StaticImage {
+    height: auto;
+    width: 100%;
 }
 
 .body {

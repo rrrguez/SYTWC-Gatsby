@@ -178,6 +178,7 @@ export const Head = () => <title>Home Page</title>
 
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import "./styles/index.css"
 
 const IndexPage = () => {
@@ -195,7 +196,7 @@ const IndexPage = () => {
         <Link className='nav-link' to="/news/mario"> Super Mario </Link>
         <Link className='nav-link' to="/news/zelda"> The Legend of Zelda </Link>
       </nav>
-      <div className='body'></div>
+      <StaticImage src="../images/index-background.jpg" alt="Imagen de Pikmins de fondo"/>
       <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
   )
