@@ -1,18 +1,15 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import NavigationBar from './NavigationBar';
+import PageTitle from './PageTitle';
 
 const Layout = ({children, section_title}) => {
     return (
         <div>
             <header>
                 <div className="title">
-                    <Link className='home-link' to="/"> NINTOPIC </Link>
+                    <PageTitle/>
                 </div>
-                <nav>
-                    <Link className='nav-link' to="../animal-crossing"> Animal Crossing </Link>
-                    <Link className='nav-link' to="../mario"> Mario </Link>
-                    <Link className='nav-link' to="../zelda"> The Legend of Zelda </Link>
-                </nav>
+                <NavigationBar/>
                 <div className='section-header'>
                     <h2 className='section-title'>{section_title}</h2>
                     <select className='sorter' id='news-sorter'>

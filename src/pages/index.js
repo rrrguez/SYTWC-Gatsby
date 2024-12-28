@@ -177,7 +177,7 @@ export const Head = () => <title>Home Page</title>
 */
 
 import * as React from 'react'
-import { Link } from 'gatsby'
+import NavigationBar from './components/NavigationBar'
 import PageTitle from './components/PageTitle'
 import { StaticImage } from 'gatsby-plugin-image'
 import "./styles/index.css"
@@ -192,11 +192,7 @@ const IndexPage = () => {
         <h2> Welcome to Nintopic! </h2>
         <h3> You can find news about the most popular Nintendo games in this page </h3>
       </div>
-      <nav>
-        <Link className='nav-link' to="/news/animal-crossing"> Animal Crossing </Link>
-        <Link className='nav-link' to="/news/mario"> Super Mario </Link>
-        <Link className='nav-link' to="/news/zelda"> The Legend of Zelda </Link>
-      </nav>
+      <NavigationBar/>
       <StaticImage src="../images/index-background.jpg" alt="Imagen de Pikmins de fondo"/>
       <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
