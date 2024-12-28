@@ -178,16 +178,25 @@ export const Head = () => <title>Home Page</title>
 
 import * as React from 'react'
 import { Link } from 'gatsby'
+import "./styles/index.css"
 
 const IndexPage = () => {
   return (
     <div>
-      <h1> El Noticiero </h1>
-      <h2> ¡Bienvenido a El Noticiero! </h2>
-      <p> En esta página podrás consultar noticias acerca de tres selectos temas. </p>
-      <Link to = "/news/mario.mdx"> Super Mario </Link>
-      <Link to = "/news/pokemon.mdx"> Pokémon </Link>
-      <Link to = "/news/zelda.mdx"> The Legend of Zelda </Link>
+      <div className='title'>
+        <h1> NINTOPIC </h1>
+      </div>
+      <div className='welcome'>
+        <h2> Welcome to Nintopic! </h2>
+        <h3> You can find news about the most popular Nintendo games in this page </h3>
+      </div>
+      <nav>
+        <Link className='nav-link' to="/news/animal-crossing"> Animal Crossing </Link>
+        <Link className='nav-link' to="/news/mario"> Super Mario </Link>
+        <Link className='nav-link' to="/news/zelda"> The Legend of Zelda </Link>
+      </nav>
+      <div className='body'></div>
+      <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
   )
 }

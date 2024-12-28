@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../../fonts/calibri.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pikmin Neue';
+    src: url('../../fonts/pikminneue.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    display: grid;
+    place-items: center;
+
+    background-color: #ACFA53;
+    background-image: url("../../images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 200px;
+    width: 100%;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Pikmin Neue', serif;
+    font-size: 44px;
+    width: 16.75%;
+}
+
+.home-link {
+    color: black;
+    font-family: 'Pikmin Neue', serif;
+    font-size: 44px;
+    text-decoration: none;
+}
+
+.welcome {
+    background-color: #D3FCA3;
+    padding: 1%;
+}
+
+h2, h3 {
+    padding: 2.5px;
+    font-family: 'Calibri';
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.section-title {
+    display: grid;
+    align-items: center;
+
+    padding-left: 10px;
+    height: 30px;
+}
+
+nav {
+    background-color: #75D705;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+
+    height: 50px;
+    padding: 2.5px;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Pikmin Neue', serif;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.body {
+    background-image: url("../../images/index-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 505px;
+}
+
+#news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    height: auto;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color: #D3FCA3;
+    color: #345F02;
+    padding: 20px;
+    position: relative;
+    font-family: 'Pikmin Neue', serif;
+    z-index: 1;
+}

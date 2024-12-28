@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 
 const NoticiasMario = () => {
     return (
-        <Layout section_title={"News about Super Mario"}>
+        <Layout section_title={"News about Animal Crossing"}>
         </Layout>
     )
 }
