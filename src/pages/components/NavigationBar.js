@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby";
 
 const formatTitle = (path) => {
     const name = path.replaceAll("/news/", "").replaceAll("-", " ").replaceAll("/", "");
-    return name;
+    return name.toUpperCase();
 }
 
 const NavigationBar = () => {
