@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ValoracionEstrella = ({ onRatingChange }) => {
+const Rating = ({ onRatingChange }) => {
   const [rating, setRating] = useState(0);
 
   const handleRating = (value) => {
@@ -24,10 +24,12 @@ const ValoracionEstrella = ({ onRatingChange }) => {
       <style>
         {`
           .star {
-            font-size: 20px;
+            font-size: 22px;
             cursor: pointer;
             color: #ddd;
+            text-align: right;
           }
+
           .star.selected {
             color: #f0c014;
           }
@@ -37,4 +39,4 @@ const ValoracionEstrella = ({ onRatingChange }) => {
   );
 };
 
-export default ValoracionEstrella;
+export default Rating;

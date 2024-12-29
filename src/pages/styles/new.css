@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../../fonts/calibri.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pikmin Neue';
+    src: url('../../fonts/pikminneue.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.news-container {
+    background-color: #D3FCA3;
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5px;
+    font-family: 'Calibri';
+    padding: 5px;
+    height: auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    position: relative;
+    margin: 15px;
+}
+
+.new-image {
+    width: 100%;
+    height: 40%;
+    border-radius: 2.5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.new-title {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.days-ago {
+    color: #838383;
+    font-size: 15px;
+}
+
+.new-foot {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3.4fr 1fr;
+    position: absolute;
+    bottom: 0;
+}
+
+.source {
+    color: #3c3c3c;
+}

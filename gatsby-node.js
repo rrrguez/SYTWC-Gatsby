@@ -5,19 +5,19 @@ exports.createPages = async ({ graphql, actions }) => {
 
     const result = await graphql(`
         {
-            allNewsArticle {
-                group(field: topic) {
-                    fieldValue
-                    nodes {
-                        title
-                        description
-                        source {
-                            name
-                        }
-                        urlToImage
-                        url
-                        publishedAt
+            allNewsArticle(filter: {title: {ne: "[Removed]"}}) {
+                group(field: {topic: SELECT}) {
+                fieldValue
+                nodes {
+                    title
+                    description
+                    source {
+                    name
                     }
+                    urlToImage
+                    url
+                    publishedAt
+                }
                 }
             }
         }
@@ -31,7 +31,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     result.data.allNewsArticle.group.forEach((group) => {
         createPage({
-            path: `/noticias/${group.fieldValue}`,
+            path: `/news/${group.fieldValue}`,
             component: path.resolve(`./src/templates/NewTemplate.js`),
             context: {
                 slug: group.fieldValue,

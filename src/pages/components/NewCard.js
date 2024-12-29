@@ -1,5 +1,7 @@
 import React from 'react';
-import ValoracionEstrella from './Rating';
+import Rating from './Rating';
+
+import '../styles/new.css'
 
 const NewCard = ({ title, description, source, image, link, date }) => {
   const calculateDaysAgo = (date) => {
@@ -19,26 +21,28 @@ const NewCard = ({ title, description, source, image, link, date }) => {
   return (
     <div className="card">
       <img
-        className="image"
+        className="new-image"
         src={image}
         alt={title}
         style={{ display: image ? 'block' : 'none' }}
       />
       <div className="content">
-        <h2 className="title">{title}</h2>
-        <p className="description">{description}</p>
-        <p className="source">Source: {source}</p>
         <p className="days-ago">
-          {daysAgo === 0
-            ? 'Published today'
-            : daysAgo === 1
-            ? `Published yesterday`
-            : `Publicado ${daysAgo} days ago`}
-        </p>
+            {daysAgo === 0
+              ? 'Published today'
+              : daysAgo === 1
+              ? `Published yesterday`
+              : `Published ${daysAgo} days ago`}
+          </p>
+        <h3 className="new-title">{title}</h3>
+        <p className="description">{description}</p>
         <a className="link" href={link} target="_blank" rel="noopener noreferrer">
-          Read more
+            Read more
         </a>
-        <ValoracionEstrella/>
+        <div className="new-foot">
+          <p className="source">Source: {source}</p>
+          <Rating/>
+        </div>
       </div>
     </div>
   );
