@@ -3,6 +3,7 @@ import Rating from './Rating';
 
 import '../styles/new.css'
 
+// Esta es la plantilla de las tarjetas de noticias
 const NewCard = ({ title, description, source, image, link, date }) => {
   const calculateDaysAgo = (date) => {
     const publishedDate = new Date(date);

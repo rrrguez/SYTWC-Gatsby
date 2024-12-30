@@ -141,3 +141,14 @@ footer {
     font-family: 'Pikmin Neue', serif;
     z-index: 1;
 }
+
+.star {
+    font-size: 22px;
+    cursor: pointer;
+    color: #ddd;
+    text-align: right;
+}
+
+.star.selected {
+color: #f0c014;
+}

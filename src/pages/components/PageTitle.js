@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
+// Encabezado de las páginas
 const PageTitle = ({page}) => {
     const data = useStaticQuery(graphql`
         query {

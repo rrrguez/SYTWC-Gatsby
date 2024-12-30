@@ -182,6 +182,7 @@ import PageTitle from './components/PageTitle'
 import { StaticImage } from 'gatsby-plugin-image'
 import "./styles/index.css"
 
+// Página principal
 const IndexPage = () => {
   return (
     <div>

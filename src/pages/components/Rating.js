@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+// Componente de valoración
+// Este será incrustado en los componentes de tarjeta de noticia
 const Rating = ({ onRatingChange }) => {
   const [rating, setRating] = useState(0);
 
@@ -21,20 +23,6 @@ const Rating = ({ onRatingChange }) => {
           ★
         </span>
       ))}
-      <style>
-        {`
-          .star {
-            font-size: 22px;
-            cursor: pointer;
-            color: #ddd;
-            text-align: right;
-          }
-
-          .star.selected {
-            color: #f0c014;
-          }
-        `}
-      </style>
     </div>
   );
 };
