@@ -23,7 +23,6 @@ const NewCard = ({ title, description, source, image, link, date }) => {
       <img
         className="new-image"
         src={image}
-        alt={title}
         style={{ display: image ? 'block' : 'none' }}
       />
       <div className="content">
