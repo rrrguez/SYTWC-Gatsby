@@ -1,6 +1,10 @@
-# Sistemas y Tecnologías Web: Cliente
-## Práctica: Gatsby
-### Por Rebeca Rodríguez Rodríguez (alu0101394763)
+# Práctica: Gatsby
+
+En este repositorio se aloja el código de la Práctica: Gatsby para la asignatura Sistemas y Tecnologías Web: Cliente.
+
+Esta página web consiste en una aplicación de noticias sobre tres videojuegos en concreto: Animal Crossing, The Legend of Zelda y Super Mario.
+
+Para la obtención de las noticias, se utiliza [News API](https://newsapi.org).
 
 ---
 
