@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknintopic=self.webpackChunknintopic||[]).push([[370],{3364:function(e,t,n){n.r(t);var a=n(7294);t.default=e=>{let{onRatingChange:t}=e;const{0:n,1:s}=(0,a.useState)(0);return a.createElement("div",{className:"stars-container"},[1,2,3,4,5].map((e=>a.createElement("span",{key:e,className:"star "+(n>=e?"selected":""),onClick:()=>{return s(n=e),void(t&&t(n));var n}},"★"))))}}}]);
+//# sourceMappingURL=component---src-pages-components-rating-js-0bbbfa4bcc154482a627.js.map
