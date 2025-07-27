@@ -15,7 +15,7 @@ const PageTitle = ({page}) => {
 
     if (page === "home") return <h1> {data.site.siteMetadata.title} </h1>
 
-    return <Link className='home-link' to="/SYTWC-Gatsby"> {data.site.siteMetadata.title} </Link>
+    return <Link className='home-link' to="/"> {data.site.siteMetadata.title} </Link>
 }
 
 export default PageTitle;

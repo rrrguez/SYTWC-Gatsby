@@ -10,12 +10,12 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "eslint ./src",
     "cypress:open": "cypress open",
-    "predeploy": "gatsby build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   },
   "dependencies": {

@@ -1,0 +1,159 @@
+
+> nintopic@1.0.0 predeploy
+> npm run build
+
+
+> nintopic@1.0.0 build
+> gatsby build --prefix-paths
+
+success compile gatsby files - 1.237s
+
+[2K[1A[2K[Gsuccess load gatsby config - 0.044s
+
+[2K[1A[2K[Gsuccess load plugins - 0.344s
+
+[2K[1A[2K[Gsuccess onPreInit - 0.005s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.039s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 0.108s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 0.204s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 0.222s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.006s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.003s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 1.790s
+
+[2K[1A[2K[Ginfo Writing GraphQL type definitions to
+/workspaces/SYTWC-Gatsby/.cache/schema.gql
+
+[2K[1A[2K[Gsuccess building schema - 0.347s
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[Gsuccess createPages - 0.126s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 0.190s
+
+[2K[1A[2K[Ginfo Total nodes: 367, SitePage nodes: 11 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 2.197s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.001s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.001s
+
+[2K[1A[2K[Ginfo bootstrap finished - 8.522s
+
+[2K[1A[2K[Gsuccess write out requires - 0.006s
+
+[2K[1A[2K[Gwarn Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly:
+https://github.com/browserslist/update-db#readme
+
+[2K[1A[2K[Gsuccess Building production JavaScript and CSS bundles - 7.031s
+
+[2K[1A[2K[Gsuccess Building HTML renderer - 7.877s
+
+[2K[1A[2K[Gsuccess Execute page configs - 0.034s
+
+[2K[1A[2K[Gsuccess Caching Webpack compilations - 0.001s
+
+[2K[1A[2K[Gsuccess Rewriting compilation hashes - 0.001s
+
+[2K[1A[2K[Gsuccess Writing page-data.json and slice-data.json files to public directory -
+0.005s - 11/11 2229.71/s
+
+[2K[1A[2K[Gsuccess Building static HTML for pages - 0.075s - 11/11 147.60/s
+
+[2K[1A[2K[Ginfo There are no new or changed slice html files to build.
+
+[2K[1A[2K[Gsuccess stitching slices - 0.003s
+
+[2K[1A[2K[Gsuccess onPostBuild - 0.000s
+
+[2K[1A[2K[G
+
+Pages
+
+┌ src/pages/404.js
+│ ├   /404/
+│ └   /404.html
+├ src/pages/index.js
+│ └   /
+├ src/pages/components/Layout.js
+│ └   /components/Layout/
+├ src/pages/components/NavigationBar.js
+│ └   /components/NavigationBar/
+├ src/pages/components/NewCard.js
+│ └   /components/NewCard/
+├ src/pages/components/PageTitle.js
+│ └   /components/PageTitle/
+├ src/pages/components/Rating.js
+│ └   /components/Rating/
+├ src/pages/news/animal-crossing.js
+│ └   /news/animal-crossing/
+├ src/pages/news/super-mario.js
+│ └   /news/super-mario/
+└ src/pages/news/the-legend-of-zelda.js
+  └   /news/the-legend-of-zelda/
+
+  ╭────────────────────────────────────────────────────────────────╮
+  │                                                                │
+  │   (SSG) Generated at build time                                │
+  │ D (DSG) Deferred static generation - page generated at runtime │
+  │ ∞ (SSR) Server-side renders at runtime (uses getServerData)    │
+  │ λ (Function) Gatsby function                                   │
+  │                                                                │
+  ╰────────────────────────────────────────────────────────────────╯
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[Ginfo Done building in 23.65110443 sec
+
+
+Pages
+
+┌ src/pages/404.js
+│ ├   /404/
+│ └   /404.html
+├ src/pages/index.js
+│ └   /
+├ src/pages/components/Layout.js
+│ └   /components/Layout/
+├ src/pages/components/NavigationBar.js
+│ └   /components/NavigationBar/
+├ src/pages/components/NewCard.js
+│ └   /components/NewCard/
+├ src/pages/components/PageTitle.js
+│ └   /components/PageTitle/
+├ src/pages/components/Rating.js
+│ └   /components/Rating/
+├ src/pages/news/animal-crossing.js
+│ └   /news/animal-crossing/
+├ src/pages/news/super-mario.js
+│ └   /news/super-mario/
+└ src/pages/news/the-legend-of-zelda.js
+  └   /news/the-legend-of-zelda/
+
+  ╭────────────────────────────────────────────────────────────────╮
+  │                                                                │
+  │   (SSG) Generated at build time                                │
+  │ D (DSG) Deferred static generation - page generated at runtime │
+  │ ∞ (SSR) Server-side renders at runtime (uses getServerData)    │
+  │ λ (Function) Gatsby function                                   │
+  │                                                                │
+  ╰────────────────────────────────────────────────────────────────╯
+
+
+> nintopic@1.0.0 deploy
+> gh-pages -d public
+
+Published

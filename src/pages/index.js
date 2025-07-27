@@ -193,7 +193,7 @@ const IndexPage = () => {
         <h3> You can find news about the most popular Nintendo games in this page </h3>
       </div>
       <NavigationBar/>
-      <img src="/src/images/index-background.jpg" alt="Imagen de Pikmins de fondo" />
+      <div className='body'/>
       <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
   )

@@ -22,7 +22,7 @@ const NavigationBar = () => {
     return (
         <nav>
             {data.allSitePage.nodes.map((node) => (
-                <Link className="nav-link" to={"/SYTWC-Gatsby" + `${node.path}`}>{formatTitle(node.path)}</Link>
+                <Link className="nav-link" to={node.path}>{formatTitle(node.path)}</Link>
             ))}
         </nav>
     )

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Calibri';
-    src: url('/src/fonts/calibri.ttf') format('truetype');
+    src: url('/SYTWC-Gatsby/fonts/calibri.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Pikmin Neue';
-    src: url('/src/fonts/pikminneue.otf') format('truetype');
+    src: url('/SYTWC-Gatsby/fonts/pikminneue.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@
     place-items: center;
 
     background-color: #ACFA53;
-    background-image: url("/src/images/banner.png");
+    background-image: url("/SYTWC-Gatsby/images/banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -116,7 +116,7 @@ StaticImage {
 }
 
 .body {
-    background-image: url("/src/images/index-background.jpg");
+    background-image: url("/SYTWC-Gatsby/images/index-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
