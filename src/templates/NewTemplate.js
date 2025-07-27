@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from '../pages/components/Layout';
-import NewCard from "../pages/components/NewCard";
-import '../pages/styles/new.css'
+import Layout from '/pages/components/Layout';
+import NewCard from "/pages/components/NewCard";
+import '/pages/styles/new.css'
 
 const NewTemplate = ({ pageContext }) => {
     const { slug, news } = pageContext;

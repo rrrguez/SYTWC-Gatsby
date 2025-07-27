@@ -180,7 +180,7 @@ import * as React from 'react'
 import NavigationBar from './components/NavigationBar'
 import PageTitle from './components/PageTitle'
 import { StaticImage } from 'gatsby-plugin-image'
-import "./styles/index.css"
+import "/pages/styles/index.css"
 
 // Página principal
 const IndexPage = () => {
