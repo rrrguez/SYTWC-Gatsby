@@ -1,7 +1,7 @@
 import React from 'react';
 import Rating from './Rating';
 
-import '/pages/styles/new.css'
+import '/src/pages/styles/new.css'
 
 // Esta es la plantilla de las tarjetas de noticias
 const NewCard = ({ title, description, source, image, link, date }) => {

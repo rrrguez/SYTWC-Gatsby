@@ -177,10 +177,9 @@ export const Head = () => <title>Home Page</title>
 */
 
 import * as React from 'react'
-import NavigationBar from './components/NavigationBar'
-import PageTitle from './components/PageTitle'
-import { StaticImage } from 'gatsby-plugin-image'
-import "./pages/styles/index.css"
+import NavigationBar from '/src/pages/components/NavigationBar'
+import PageTitle from '/src/pages/components/PageTitle'
+import "/src/pages/styles/index.css"
 
 // Página principal
 const IndexPage = () => {
@@ -194,7 +193,7 @@ const IndexPage = () => {
         <h3> You can find news about the most popular Nintendo games in this page </h3>
       </div>
       <NavigationBar/>
-      <StaticImage src="./images/index-background.jpg" alt="Imagen de Pikmins de fondo"/>
+      <img src="/src/images/index-background.jpg" alt="Imagen de Pikmins de fondo" />
       <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
   )
