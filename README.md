@@ -4,7 +4,7 @@ En este repositorio se aloja el código de la Práctica: Gatsby para la asignatu
 
 Esta página web consiste en una aplicación de noticias sobre tres videojuegos en concreto: Animal Crossing, The Legend of Zelda y Super Mario.
 
-Para la obtención de las noticias, se utiliza [News API](https://newsapi.org).
+Para la obtención de las noticias, se utiliza [News API](https://newsapi.org). Sin embargo, como la _API key_ se ha obtenido mediante el plan gratuito, [no se pueden ver las noticias en un entorno de producción](https://newsapi.org/pricing).
 
 ---
 
