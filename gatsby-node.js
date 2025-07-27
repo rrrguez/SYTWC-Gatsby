@@ -32,7 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
     result.data.allNewsArticle.group.forEach((group) => {
         createPage({
             path: `/news/${group.fieldValue}`,
-            component: path.resolve(`/templates/NewTemplate.js`),
+            component: path.resolve(`./src/templates/NewTemplate.js`),
             context: {
                 slug: group.fieldValue,
                 news: group.nodes,

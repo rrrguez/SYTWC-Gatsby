@@ -180,7 +180,7 @@ import * as React from 'react'
 import NavigationBar from './components/NavigationBar'
 import PageTitle from './components/PageTitle'
 import { StaticImage } from 'gatsby-plugin-image'
-import "/pages/styles/index.css"
+import "./pages/styles/index.css"
 
 // Página principal
 const IndexPage = () => {
@@ -194,7 +194,7 @@ const IndexPage = () => {
         <h3> You can find news about the most popular Nintendo games in this page </h3>
       </div>
       <NavigationBar/>
-      <StaticImage src="/images/index-background.jpg" alt="Imagen de Pikmins de fondo"/>
+      <StaticImage src="./images/index-background.jpg" alt="Imagen de Pikmins de fondo"/>
       <footer>© 2024 NINTOPIC - Rebeca R. R.</footer>
     </div>
   )

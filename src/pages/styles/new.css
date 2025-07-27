@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Calibri';
-    src: url('/fonts/calibri.ttf') format('truetype');
+    src: url('/src/fonts/calibri.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Pikmin Neue';
-    src: url('/fonts/pikminneue.otf') format('truetype');
+    src: url('/src/fonts/pikminneue.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
